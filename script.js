@@ -3004,3 +3004,24 @@ const tricks = [
                 cursorGlow.style.top = e.clientY + 'px';
             });
         }
+setTimeout(() => {
+    if (typeof quizQueue !== "undefined" && quizQueue.length > 0) {
+        console.log("TEST: Triggering drag");
+        startQuiz();
+        setTimeout(() => {
+            const card = document.getElementById("quiz-card-0");
+            console.log("Card 0 Initial:", card.style.transform, card.style.display);
+            
+            // simulate fling
+            flingTopCard(true);
+            
+            setTimeout(() => {
+                const cardAfter = document.getElementById("quiz-card-0");
+                console.log("Card 0 After:", cardAfter.style.transform, cardAfter.style.display, cardAfter.classList.contains("in-pile"));
+                const rect = cardAfter.getBoundingClientRect();
+                console.log("Card 0 Rect:", rect.left, rect.top, rect.width, rect.height);
+            }, 100);
+        }, 500);
+    }
+}, 3000);
+
