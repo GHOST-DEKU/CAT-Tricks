@@ -144,6 +144,20 @@ const tricks = [
             },
             {
                 section: "Vocab",
+                title: "Nocturnal",
+                tags: ["Adjectives", "Roots"],
+                module: "Vocab",
+                topic: "I-P",
+                whatItIs: "Done, occurring, or active at night.",
+                whereToUse: "nahk-TUR-nl",
+                logic: "<strong>Origin:</strong> Latin 'nocturnus' (of the night).<br><strong>Memory Trick:</strong> 'Noc' (night) + 'turn' (active).",
+                formula: "Nighttime, Night-active",
+                example: "Owls and bats are nocturnal animals.<br><strong>Swap test:</strong> Owls and bats are <em>night-active</em> animals.",
+                icon1: "📖", icon2: "🗣️", icon3: "🧠", icon4: "📚", icon5: "📝",
+                rootGroup: "Root: Noc- / Nox- (Night)"
+            },
+            {
+                section: "Vocab",
                 title: "Pedagogy",
                 tags: ["Nouns", "Roots"],
                 module: "Vocab",
@@ -2345,7 +2359,7 @@ const tricks = [
             } else {
                 activeDragCard.style.transform = 'scale(1) translateY(0px)';
             }
-            
+            setTimeout(() => {
                 if (activeDragCard) activeDragCard.removeAttribute('data-dragging');
                 activeDragCard = null;
             }, 50);
@@ -2381,7 +2395,8 @@ const tricks = [
             card.style.zIndex = 999;
             
             // After flying, push it to the bottom of the pile stack
-            const pileZIndex = currentQuizIndex + 10;
+            setTimeout(() => {
+                const pileZIndex = currentQuizIndex + 10;
                 if (card) card.style.zIndex = pileZIndex;
             }, 600);
             
