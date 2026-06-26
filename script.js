@@ -1,14 +1,17 @@
 const tricks = [
             {
                 section: "Vocab",
-                module: "Vocabulary",
-                topic: "Word Meanings",
-                tags: ["adjective", "biology"],
+                module: "Vocab",
+                topic: "I-P",
+                tags: ["Adjectives", "biology"],
                 title: "Nocturnal",
                 whatItIs: "Active or occurring during the night.",
-                howToUseIt: "Use this to describe animals, habits, or events that happen at night.",
-                example: "Owls are nocturnal creatures that hunt in the dark.",
-                similarTricks: ["Diurnal", "Crepuscular"]
+                whereToUse: "nahk-TUR-nl",
+                logic: "<strong>Origin:</strong> Latin 'nocturnus' (of the night).<br><strong>Memory Trick:</strong> 'Noc' (night) + 'turn' (active).",
+                formula: "Nighttime, Night-active",
+                example: "Owls are nocturnal creatures that hunt in the dark.<br><strong>Swap test:</strong> Owls are <em>night-active</em> creatures that hunt in the dark.",
+                similarTricks: ["Diurnal", "Crepuscular"],
+                icon1: "📖", icon2: "🗣️", icon3: "🧠", icon4: "📚", icon5: "📝"
             },
             {
                 section: "Quant",
@@ -142,20 +145,7 @@ const tricks = [
                 icon1: "📖", icon2: "🗣️", icon3: "🧠", icon4: "📚", icon5: "📝",
                 rootGroup: "Prefix: Con- / Com- (With/Together)"
             },
-            {
-                section: "Vocab",
-                title: "Nocturnal",
-                tags: ["Adjectives", "Roots"],
-                module: "Vocab",
-                topic: "I-P",
-                whatItIs: "Done, occurring, or active at night.",
-                whereToUse: "nahk-TUR-nl",
-                logic: "<strong>Origin:</strong> Latin 'nocturnus' (of the night).<br><strong>Memory Trick:</strong> 'Noc' (night) + 'turn' (active).",
-                formula: "Nighttime, Night-active",
-                example: "Owls and bats are nocturnal animals.<br><strong>Swap test:</strong> Owls and bats are <em>night-active</em> animals.",
-                icon1: "📖", icon2: "🗣️", icon3: "🧠", icon4: "📚", icon5: "📝",
-                rootGroup: "Root: Noc- / Nox- (Night)"
-            },
+
             {
                 section: "Vocab",
                 title: "Pedagogy",
