@@ -838,6 +838,7 @@ const tricks = [
                 title: "Frigid",
                 tags: ["Adjectives"],
                 module: "Vocab",
+                topic: "E-H",
                 whatItIs: "Very cold in temperature, or lacking friendly warmth.",
                 whereToUse: "frij-id",
                 logic: "<strong>Origin:</strong> Latin frigidus, meaning cold.<br><strong>Memory Trick:</strong> Sounds like 'fridge' &mdash; the place where things get extremely cold.",
