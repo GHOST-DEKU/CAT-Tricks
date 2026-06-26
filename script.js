@@ -1,5 +1,16 @@
 const tricks = [
             {
+                section: "Vocab",
+                module: "Vocabulary",
+                topic: "Word Meanings",
+                tags: ["adjective", "biology"],
+                title: "Nocturnal",
+                whatItIs: "Active or occurring during the night.",
+                howToUseIt: "Use this to describe animals, habits, or events that happen at night.",
+                example: "Owls are nocturnal creatures that hunt in the dark.",
+                similarTricks: ["Diurnal", "Crepuscular"]
+            },
+            {
                 section: "Quant",
                 title: "Algebraic Substitution & Extreme Cases",
                 tags: ["Algebraic Shortcuts"],
@@ -1957,7 +1968,10 @@ const tricks = [
             }, dur * 0.35);
 
             coinRotation = to;
-            setTimeout(() => { isAnimating = false; }, dur);
+            
+            setTimeout(() => {
+                isAnimating = false;
+            }, dur);
         });
 
         // Initial render
@@ -2332,7 +2346,6 @@ const tricks = [
                 activeDragCard.style.transform = 'scale(1) translateY(0px)';
             }
             
-            setTimeout(() => {
                 if (activeDragCard) activeDragCard.removeAttribute('data-dragging');
                 activeDragCard = null;
             }, 50);
@@ -2369,7 +2382,6 @@ const tricks = [
             
             // After flying, push it to the bottom of the pile stack
             const pileZIndex = currentQuizIndex + 10;
-            setTimeout(() => {
                 if (card) card.style.zIndex = pileZIndex;
             }, 600);
             
@@ -3004,24 +3016,6 @@ const tricks = [
                 cursorGlow.style.top = e.clientY + 'px';
             });
         }
-setTimeout(() => {
-    if (typeof quizQueue !== "undefined" && quizQueue.length > 0) {
-        console.log("TEST: Triggering drag");
-        startQuiz();
-        setTimeout(() => {
-            const card = document.getElementById("quiz-card-0");
-            console.log("Card 0 Initial:", card.style.transform, card.style.display);
             
-            // simulate fling
-            flingTopCard(true);
             
-            setTimeout(() => {
-                const cardAfter = document.getElementById("quiz-card-0");
-                console.log("Card 0 After:", cardAfter.style.transform, cardAfter.style.display, cardAfter.classList.contains("in-pile"));
-                const rect = cardAfter.getBoundingClientRect();
-                console.log("Card 0 Rect:", rect.left, rect.top, rect.width, rect.height);
-            }, 100);
-        }, 500);
-    }
-}, 3000);
 
