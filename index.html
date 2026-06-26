@@ -1001,6 +1001,7 @@
             width: calc(100% - 160px); /* Leave room for slots on mobile */
             transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.4s ease, box-shadow 0.4s ease;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border-radius: 32px;
             touch-action: none; 
             user-select: none;
             will-change: transform;
@@ -4733,10 +4734,10 @@
             card.classList.add('in-pile');
             card.classList.remove('is-dragging');
             
-            // Randomize position in the pile
-            const randomRotation = (Math.random() * 12) - 6; 
-            const randomY = (Math.random() * 20) - 10;
-            const randomXOffset = (Math.random() * 10) - 5;
+            // Randomize position in the pile heavily so previous cards are visible beneath
+            const randomRotation = (Math.random() * 24) - 12; // -12 to +12 degrees
+            const randomY = (Math.random() * 40) - 20; // -20 to +20 px
+            const randomXOffset = (Math.random() * 40) - 20; // -20 to +20 px
             
             const slotWidthOffset = window.innerWidth <= 768 ? (window.innerWidth / 2) - 40 : (Math.min(900, window.innerWidth) / 2) - 70;
             
