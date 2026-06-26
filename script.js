@@ -1,5 +1,6 @@
 const tricks = [
             {
+                dateAdded: "2026-01-01T12:01:00.000Z",
                 section: "Vocab",
                 module: "Vocab",
                 topic: "I-P",
@@ -14,6 +15,7 @@ const tricks = [
                 icon1: "📖", icon2: "🗣️", icon3: "🧠", icon4: "📚", icon5: "📝"
             },
             {
+                dateAdded: "2026-01-01T12:02:00.000Z",
                 section: "Quant",
                 title: "Algebraic Substitution & Extreme Cases",
                 tags: ["Algebraic Shortcuts"],
@@ -27,6 +29,7 @@ const tricks = [
                 icon1: "🔍", icon2: "🎯", icon3: "🧠", icon4: "📐", icon5: "💡"
             },
             {
+                dateAdded: "2026-01-01T12:03:00.000Z",
                 section: "Quant",
                 title: "Factorial Exponents & Bottlenecks",
                 tags: ["Prime Factors"],
@@ -40,6 +43,7 @@ const tricks = [
                 icon1: "🔍", icon2: "🎯", icon3: "🧠", icon4: "📐", icon5: "💡"
             },
             {
+                dateAdded: "2026-01-01T12:04:00.000Z",
                 section: "Quant",
                 title: "Integer Constraint Lock-In",
                 tags: ["Equations & Roots"],
@@ -53,6 +57,7 @@ const tricks = [
                 icon1: "🔍", icon2: "🎯", icon3: "🧠", icon4: "📐", icon5: "💡"
             },
             {
+                dateAdded: "2026-01-01T12:05:00.000Z",
                 section: "Quant",
                 title: "Fractions Shift (Dilute vs. Concentrate)",
                 tags: ["Fractions & Decimals"],
@@ -66,6 +71,7 @@ const tricks = [
                 icon1: "🔍", icon2: "🎯", icon3: "🧠", icon4: "📐", icon5: "💡"
             },
             {
+                dateAdded: "2026-01-01T12:06:00.000Z",
                 section: "Quant",
                 title: "Prime Sum Ratio Check",
                 tags: ["Ratios & Proportions"],
@@ -79,6 +85,7 @@ const tricks = [
                 icon1: "🔍", icon2: "🎯", icon3: "🧠", icon4: "📐", icon5: "💡"
             },
             {
+                dateAdded: "2026-01-01T12:07:00.000Z",
                 section: "Quant",
                 title: "Digit Reversal & the 9s Rule",
                 tags: ["Integers"],
@@ -92,6 +99,7 @@ const tricks = [
                 icon1: "🔍", icon2: "🎯", icon3: "🧠", icon4: "📐", icon5: "💡"
             },
             {
+                dateAdded: "2026-01-01T12:08:00.000Z",
                 section: "Quant",
                 title: "Power Towers vs. Nested Radicals",
                 tags: ["Indices & Surds"],
@@ -105,6 +113,7 @@ const tricks = [
                 icon1: "🔍", icon2: "🎯", icon3: "🧠", icon4: "📐", icon5: "💡"
             },
             {
+                dateAdded: "2026-01-01T12:09:00.000Z",
                 section: "Quant",
                 title: "Micro-Modeling for Sequences",
                 tags: ["Sequences & Series"],
@@ -118,6 +127,7 @@ const tricks = [
                 icon1: "🔍", icon2: "🎯", icon3: "🧠", icon4: "📐", icon5: "💡"
             },
             {
+                dateAdded: "2026-01-01T12:10:00.000Z",
                 section: "Vocab",
                 title: "Endowment",
                 tags: ["Nouns"],
@@ -132,6 +142,7 @@ const tricks = [
                 rootGroup: "Prefix: En- / Em- (In/Make)"
             },
             {
+                dateAdded: "2026-01-01T12:11:00.000Z",
                 section: "Vocab",
                 title: "Congenital",
                 tags: ["Adjectives", "Roots"],
@@ -147,6 +158,7 @@ const tricks = [
             },
 
             {
+                dateAdded: "2026-01-01T12:12:00.000Z",
                 section: "Vocab",
                 title: "Pedagogy",
                 tags: ["Nouns", "Roots"],
@@ -161,6 +173,7 @@ const tricks = [
                 rootGroup: "Root: Ped- (Greek: Child)"
             },
             {
+                dateAdded: "2026-01-01T12:13:00.000Z",
                 section: "Vocab",
                 title: "Confer",
                 tags: ["Verbs"],
@@ -175,6 +188,7 @@ const tricks = [
                 rootGroup: "Prefix: Con- / Com- (With/Together)"
             },
             {
+                dateAdded: "2026-01-01T12:14:00.000Z",
                 section: "Vocab",
                 title: "Incongruous",
                 tags: ["Adjectives"],
@@ -189,6 +203,7 @@ const tricks = [
                 rootGroup: "Prefix: In- / Im- (Latin: Not)"
             },
             {
+                dateAdded: "2026-01-01T12:15:00.000Z",
                 section: "Vocab",
                 title: "Bewail",
                 tags: ["Verbs"],
@@ -203,6 +218,7 @@ const tricks = [
                 rootGroup: "Prefix: Be- (Make/Thoroughly)"
             },
             {
+                dateAdded: "2026-01-01T12:16:00.000Z",
                 section: "Vocab",
                 title: "Kennels",
                 tags: ["Nouns"],
@@ -217,6 +233,7 @@ const tricks = [
                 rootGroup: "Root: Can- (Latin: Dog)"
             },
             {
+                dateAdded: "2026-01-01T12:17:00.000Z",
                 section: "Vocab",
                 title: "Loom / Looms",
                 tags: ["Verbs"],
@@ -231,6 +248,7 @@ const tricks = [
                 rootGroup: "Middle English / Germanic"
             },
             {
+                dateAdded: "2026-01-01T12:18:00.000Z",
                 section: "Vocab",
                 title: "Coming of age",
                 tags: ["Idioms"],
@@ -245,6 +263,7 @@ const tricks = [
                 rootGroup: "Phrases & Idioms"
             },
             {
+                dateAdded: "2026-01-01T12:19:00.000Z",
                 section: "Vocab",
                 title: "Holistic",
                 tags: ["Adjectives"],
@@ -259,6 +278,7 @@ const tricks = [
                 rootGroup: "Root: Hol- (Greek: Whole)"
             },
             {
+                dateAdded: "2026-01-01T12:20:00.000Z",
                 section: "Vocab",
                 title: "Multitiered",
                 tags: ["Adjectives"],
@@ -273,6 +293,7 @@ const tricks = [
                 rootGroup: "Prefix: Multi- (Latin: Many)"
             },
             {
+                dateAdded: "2026-01-01T12:21:00.000Z",
                 section: "Vocab",
                 title: "Doting",
                 tags: ["Adjectives"],
@@ -287,6 +308,7 @@ const tricks = [
                 rootGroup: "Middle English / Germanic"
             },
             {
+                dateAdded: "2026-01-01T12:22:00.000Z",
                 section: "Vocab",
                 title: "Profoundly",
                 tags: ["Adverbs"],
@@ -301,6 +323,7 @@ const tricks = [
                 rootGroup: "Prefix: Pro- (Latin: Forward/For)"
             },
             {
+                dateAdded: "2026-01-01T12:23:00.000Z",
                 section: "Vocab",
                 title: "Precipitous",
                 tags: ["Adjectives"],
@@ -315,6 +338,7 @@ const tricks = [
                 rootGroup: "Prefix: Pre- (Latin: Before)"
             },
             {
+                dateAdded: "2026-01-01T12:24:00.000Z",
                 section: "Vocab",
                 title: "Intricate",
                 tags: ["Adjectives"],
@@ -329,6 +353,7 @@ const tricks = [
                 rootGroup: "Prefix: In- / Im- (Latin: Not)"
             },
             {
+                dateAdded: "2026-01-01T12:25:00.000Z",
                 section: "Vocab",
                 title: "Culling",
                 tags: ["Nouns", "Verbs"],
@@ -343,6 +368,7 @@ const tricks = [
                 rootGroup: "Prefix: Con- / Com- (With/Together)"
             },
             {
+                dateAdded: "2026-01-01T12:26:00.000Z",
                 section: "Vocab",
                 title: "Suburbs",
                 tags: ["Nouns"],
@@ -357,6 +383,7 @@ const tricks = [
                 rootGroup: "Prefix: Sub- (Latin: Under/Near)"
             },
             {
+                dateAdded: "2026-01-01T12:27:00.000Z",
                 section: "Vocab",
                 title: "Sheepish",
                 tags: ["Adjectives"],
@@ -371,6 +398,7 @@ const tricks = [
                 rootGroup: "Animal Metaphors"
             },
             {
+                dateAdded: "2026-01-01T12:28:00.000Z",
                 section: "Vocab",
                 title: "Influxes",
                 tags: ["Nouns"],
@@ -385,6 +413,7 @@ const tricks = [
                 rootGroup: "Prefix: In- / Im- (Latin: Not)"
             },
             {
+                dateAdded: "2026-01-01T12:29:00.000Z",
                 section: "Vocab",
                 title: "Thriftiness",
                 tags: ["Nouns"],
@@ -399,6 +428,7 @@ const tricks = [
                 rootGroup: "Old Norse / Germanic"
             },
             {
+                dateAdded: "2026-01-01T12:30:00.000Z",
                 section: "Vocab",
                 title: "Stoic",
                 tags: ["Adjectives", "Nouns"],
@@ -413,6 +443,7 @@ const tricks = [
                 rootGroup: "Greek Philosophy"
             },
             {
+                dateAdded: "2026-01-01T12:31:00.000Z",
                 section: "Vocab",
                 title: "Scandalise",
                 tags: ["Verbs"],
@@ -427,6 +458,7 @@ const tricks = [
                 rootGroup: "Greek Philosophy"
             },
             {
+                dateAdded: "2026-01-01T12:32:00.000Z",
                 section: "Vocab",
                 title: "Endeavour",
                 tags: ["Nouns", "Verbs"],
@@ -441,6 +473,7 @@ const tricks = [
                 rootGroup: "Prefix: En- / Em- (In/Make)"
             },
             {
+                dateAdded: "2026-01-01T12:33:00.000Z",
                 section: "Vocab",
                 title: "Backgammon",
                 tags: ["Nouns"],
@@ -455,6 +488,7 @@ const tricks = [
                 rootGroup: "Germanic / Old English"
             },
             {
+                dateAdded: "2026-01-01T12:34:00.000Z",
                 section: "Vocab",
                 title: "Craned",
                 tags: ["Verbs"],
@@ -469,6 +503,7 @@ const tricks = [
                 rootGroup: "Animal Metaphors"
             },
             {
+                dateAdded: "2026-01-01T12:35:00.000Z",
                 section: "Vocab",
                 title: "Eulogy",
                 tags: ["Nouns", "Roots"],
@@ -483,6 +518,7 @@ const tricks = [
                 rootGroup: "Prefix: Eu- (Greek: Good/Well)"
             },
             {
+                dateAdded: "2026-01-01T12:36:00.000Z",
                 section: "Vocab",
                 title: "Euthanasia",
                 tags: ["Nouns", "Roots"],
@@ -497,6 +533,7 @@ const tricks = [
                 rootGroup: "Prefix: Eu- (Greek: Good/Well)"
             },
             {
+                dateAdded: "2026-01-01T12:37:00.000Z",
                 section: "Vocab",
                 title: "Euphony",
                 tags: ["Nouns", "Roots"],
@@ -511,6 +548,7 @@ const tricks = [
                 rootGroup: "Prefix: Eu- (Greek: Good/Well)"
             },
             {
+                dateAdded: "2026-01-01T12:38:00.000Z",
                 section: "Vocab",
                 title: "Euphoria",
                 tags: ["Nouns", "Roots"],
@@ -525,6 +563,7 @@ const tricks = [
                 rootGroup: "Prefix: Eu- (Greek: Good/Well)"
             },
             {
+                dateAdded: "2026-01-01T12:39:00.000Z",
                 section: "Vocab",
                 title: "Euphemism",
                 tags: ["Nouns", "Roots"],
@@ -539,6 +578,7 @@ const tricks = [
                 rootGroup: "Prefix: Eu- (Greek: Good/Well)"
             },
             {
+                dateAdded: "2026-01-01T12:40:00.000Z",
                 section: "Vocab",
                 title: "Scant",
                 tags: ["Adjectives"],
@@ -553,6 +593,7 @@ const tricks = [
                 rootGroup: "Old Norse / Germanic"
             },
             {
+                dateAdded: "2026-01-01T12:41:00.000Z",
                 section: "Vocab",
                 title: "Gusto",
                 tags: ["Nouns"],
@@ -567,6 +608,7 @@ const tricks = [
                 rootGroup: "Root: Gust- (Latin: Taste)"
             },
             {
+                dateAdded: "2026-01-01T12:42:00.000Z",
                 section: "Vocab",
                 title: "Eccentricities",
                 tags: ["Nouns"],
@@ -581,6 +623,7 @@ const tricks = [
                 rootGroup: "Prefix: Ex- / Ec- (Greek/Latin: Out of)"
             },
             {
+                dateAdded: "2026-01-01T12:43:00.000Z",
                 section: "Vocab",
                 title: "Unenviable",
                 tags: ["Adjectives"],
@@ -595,6 +638,7 @@ const tricks = [
                 rootGroup: "Prefix: Un- (Not)"
             },
             {
+                dateAdded: "2026-01-01T12:44:00.000Z",
                 section: "Vocab",
                 title: "Philology",
                 tags: ["Nouns", "Roots"],
@@ -609,6 +653,7 @@ const tricks = [
                 rootGroup: "Root: Phil- (Greek: Love)"
             },
             {
+                dateAdded: "2026-01-01T12:45:00.000Z",
                 section: "Vocab",
                 title: "Misogynist",
                 tags: ["Nouns", "Roots"],
@@ -623,6 +668,7 @@ const tricks = [
                 rootGroup: "Prefix: Miso- (Greek: Hate)"
             },
             {
+                dateAdded: "2026-01-01T12:46:00.000Z",
                 section: "Vocab",
                 title: "Misandrist",
                 tags: ["Nouns", "Roots"],
@@ -637,6 +683,7 @@ const tricks = [
                 rootGroup: "Prefix: Miso- (Greek: Hate)"
             },
             {
+                dateAdded: "2026-01-01T12:47:00.000Z",
                 section: "Vocab",
                 title: "Misanthrope",
                 tags: ["Nouns", "Roots"],
@@ -651,6 +698,7 @@ const tricks = [
                 rootGroup: "Prefix: Miso- (Greek: Hate)"
             },
             {
+                dateAdded: "2026-01-01T12:48:00.000Z",
                 section: "Vocab",
                 title: "Misogamist",
                 tags: ["Nouns", "Roots"],
@@ -665,6 +713,7 @@ const tricks = [
                 rootGroup: "Prefix: Miso- (Greek: Hate)"
             },
             {
+                dateAdded: "2026-01-01T12:49:00.000Z",
                 section: "Vocab",
                 title: "Confluent",
                 tags: ["Adjectives", "Roots"],
@@ -679,6 +728,7 @@ const tricks = [
                 rootGroup: "Prefix: Con- (Latin: With/Together)"
             },
             {
+                dateAdded: "2026-01-01T12:50:00.000Z",
                 section: "Vocab",
                 title: "Engender",
                 tags: ["Verbs"],
@@ -693,6 +743,7 @@ const tricks = [
                 rootGroup: "Prefix: En- / Em- (In/Make)"
             },
             {
+                dateAdded: "2026-01-01T12:51:00.000Z",
                 section: "Vocab",
                 title: "Immaculate",
                 tags: ["Adjectives", "Roots"],
@@ -707,6 +758,7 @@ const tricks = [
                 rootGroup: "Prefix: In- / Im- (Latin: Not)"
             },
             {
+                dateAdded: "2026-01-01T12:52:00.000Z",
                 section: "Vocab",
                 title: "Paucity",
                 tags: ["Nouns"],
@@ -721,6 +773,7 @@ const tricks = [
                 rootGroup: "Root: Pauc- (Latin: Few)"
             },
             {
+                dateAdded: "2026-01-01T12:53:00.000Z",
                 section: "Vocab",
                 title: "Equanimity",
                 tags: ["Nouns", "Roots"],
@@ -735,6 +788,7 @@ const tricks = [
                 rootGroup: "Root: Anim- (Latin: Mind/Soul)"
             },
             {
+                dateAdded: "2026-01-01T12:54:00.000Z",
                 section: "Vocab",
                 title: "Magnanimous",
                 tags: ["Adjectives", "Roots"],
@@ -749,6 +803,7 @@ const tricks = [
                 rootGroup: "Root: Anim- (Latin: Mind/Soul)"
             },
             {
+                dateAdded: "2026-01-01T12:55:00.000Z",
                 section: "Vocab",
                 title: "Animosity",
                 tags: ["Nouns", "Roots"],
@@ -763,6 +818,7 @@ const tricks = [
                 rootGroup: "Root: Anim- (Latin: Mind/Soul)"
             },
             {
+                dateAdded: "2026-01-01T12:56:00.000Z",
                 section: "Vocab",
                 title: "Pusillanimous",
                 tags: ["Adjectives", "Roots"],
@@ -777,6 +833,7 @@ const tricks = [
                 rootGroup: "Root: Anim- (Latin: Mind/Soul)"
             },
             {
+                dateAdded: "2026-01-01T12:57:00.000Z",
                 section: "Vocab",
                 title: "Frigid",
                 tags: ["Adjectives"],
@@ -789,6 +846,7 @@ const tricks = [
                 icon1: "📖", icon2: "🗣️", icon3: "🧠", icon4: "📚", icon5: "📝"
             },
             {
+                dateAdded: "2026-01-01T12:58:00.000Z",
                 section: "Vocab",
                 title: "Unfathomable",
                 tags: ["Adjectives"],
@@ -803,6 +861,7 @@ const tricks = [
                 rootGroup: "Root: Fath- (Old English: Outstretched Arms)"
             },
             {
+                dateAdded: "2026-01-01T12:59:00.000Z",
                 section: "Vocab",
                 title: "Baloney",
                 tags: ["Nouns"],
@@ -1554,7 +1613,9 @@ const tricks = [
             }
 
             // Sort next
-            if (activeSort === 'alphabetical-az') {
+            if (activeSort === 'newest-first') {
+                filteredTricks.sort((a, b) => new Date(b.dateAdded || 0) - new Date(a.dateAdded || 0));
+            } else if (activeSort === 'alphabetical-az') {
                 filteredTricks.sort((a, b) => a.title.localeCompare(b.title));
             } else if (activeSort === 'alphabetical-za') {
                 filteredTricks.sort((a, b) => b.title.localeCompare(a.title));
