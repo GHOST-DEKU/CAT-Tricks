@@ -6,134 +6,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="CAT Quant">
-    <title>CAT Quant Strategies & Tricks</title>
+    <title>CAT Quant Strategies &amp; Tricks</title>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { background-color: #05040a; color: #ffffff; margin: 0; }
+    </style>
 </head>
 <body data-theme="Quant">
-
-    <!-- Ambient Background Blobs -->
-    <div class="bg-glow-blobs"></div>
-
-    <!-- Cursor Glow (must be outside bg-glow-blobs to escape its z-index:-2 stacking context) -->
-    <div class="cursor-glow" id="cursor-glow"></div>
-
-    <!-- Top Navigation Bar -->
-    <div class="top-nav">
-        <!-- Draggable Glass Slider Control -->
-        <div class="glass-slider-container" id="glass-slider-container" title="Adjust Glass Blur & Opacity Smoothly">
-            <span class="glass-slider-icon">🔮</span>
-            <div class="glass-slider-track-wrapper">
-                <span class="glass-slider-label">Clear</span>
-                <div class="glass-slider-track" id="glass-slider-track">
-                    <div class="glass-slider-handle" id="glass-slider-handle"></div>
-                </div>
-                <span class="glass-slider-label">Frosted</span>
-            </div>
-            <div class="glass-slider-value" id="glass-slider-val-label">Balanced</div>
-        </div>
-
-        <div class="theme-toggle" id="theme-toggle" title="Toggle Light/Dark Mode">
-            <div class="toggle-inner">
-                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="5"></circle>
-                    <line x1="12" y1="1" x2="12" y2="3"></line>
-                    <line x1="12" y1="21" x2="12" y2="23"></line>
-                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                    <line x1="1" y1="12" x2="3" y2="12"></line>
-                    <line x1="21" y1="12" x2="23" y2="12"></line>
-                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                </svg>
-                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                </svg>
-            </div>
-        </div>
-    </div>
-
-    <header>
-        <div class="badge">
-            <span class="badge-dot"></span>
-            Pro Strategies
-        </div>
-        <h1><span class="title-light">Master the</span><br><span class="title-gradient">Shortcuts.</span></h1>
-        <p class="subtitle">Interactive logic shortcuts & trap-avoidance techniques. Hover over any card to reveal the underlying trick and formulas.</p>
-        
-        <div class="tabs">
-            <div class="tab-slider" id="tab-slider"></div>
-            <button class="tab active" data-section="Quant">Quant</button>
-            <button class="tab" data-section="DILR">DILR</button>
-            <button class="tab" data-section="VARC">VARC</button>
-            <button class="tab" data-section="Vocab">Vocab</button>
-        </div>
-
-        <div class="filter-bar" id="filter-bar"></div>
-
-        <!-- Sort & Group Bar -->
-        <div class="sort-group-bar" id="sort-group-bar">
-            <!-- Search Group -->
-            <div class="search-group">
-                <input type="text" id="search-input" class="search-input" placeholder="Search cards..." oninput="handleSearchInput()" onfocus="showSearchSuggestions()" onblur="hideSearchSuggestionsDeferred()">
-                <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-                <div class="search-suggestions" id="search-suggestions"></div>
-            </div>
-            <div class="control-select-group">
-                <label for="sort-select">Sort By:</label>
-                <select id="sort-select" onchange="handleSortChange()">
-                    <option value="default">Default (Drag Order)</option>
-                    <option value="newest-first">New to Old</option>
-                    <option value="alphabetical-az">Alphabetical (A-Z)</option>
-                    <option value="alphabetical-za">Alphabetical (Z-A)</option>
-                    <option value="length">Word Length (Short to Long)</option>
-                </select>
-            </div>
-            <div class="control-select-group">
-                <label for="group-select">Group By:</label>
-                <select id="group-select" onchange="handleGroupChange()">
-                    <option value="none">None (Flat Grid)</option>
-                    <option value="topic">Alphabet Range</option>
-                    <option value="root">Root / Prefix Origin</option>
-                    <option value="pos">Word Type (POS)</option>
-                </select>
-            </div>
-        </div>
-
-        <!-- View Toggle Segmented Control -->
-        <div class="view-toggle" id="view-toggle">
-            <div class="view-toggle-slider" id="view-toggle-slider"></div>
-            <button class="view-toggle-btn active" id="view-cards-btn">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9"></rect><rect x="14" y="3" width="7" height="5"></rect><rect x="14" y="12" width="7" height="9"></rect><rect x="3" y="16" width="7" height="5"></rect></svg>
-                Cards
-            </button>
-            <button class="view-toggle-btn" id="view-quiz-btn">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-                Study Quiz
-            </button>
-            <button class="view-toggle-btn" id="view-analytics-btn">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
-                Analytics
-            </button>
-        </div>
-    </header>
-
-    <!-- Word of the Day Panel -->
-    <div id="word-of-the-day-container" style="display: none; width: 100%; max-width: 900px; margin-bottom: 2.5rem; animation: fadeInDown 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"></div>
-
-    <div class="grid-container" id="grid-container"></div>
-    
-    <!-- Quiz Study View -->
-    <div class="quiz-view" id="quiz-view" style="display: none;"></div>
-
-    <!-- Analytics Dashboard View -->
-    <div class="analytics-view" id="analytics-view" style="display: none;"></div>
-
-    <script src="script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
 </body>
 </html>
