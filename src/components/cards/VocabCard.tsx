@@ -1,4 +1,6 @@
+import React, { useState } from 'react';
 import type { Trick } from '../../types';
+import CardFrame from './CardFrame';
 
 interface Props {
   trick: Trick;
@@ -6,7 +8,8 @@ interface Props {
 }
 
 const VocabCard: React.FC<Props> = ({ trick, index }) => {
-  const isVocab = true;
+  const [isFlipped, setIsFlipped] = useState(false);
+  const isVocab = trick.section.toLowerCase() === 'vocab';
   const label1 = isVocab ? 'Meaning' : 'What it is';
   const label2 = isVocab ? 'Pronunciation' : 'Where to Use';
   const label3 = isVocab ? 'Origin & Memory' : 'The Logic';
@@ -37,10 +40,26 @@ const VocabCard: React.FC<Props> = ({ trick, index }) => {
   };
 
   return (
-    <div className={`card ${trick.section.toLowerCase()}-card`} data-section={trick.section} data-title={trick.title}>
+    <div 
+      className={`card ${trick.section.toLowerCase()}-card ${isFlipped ? 'is-flipped' : ''}`} 
+      data-section={trick.section} 
+      data-title={trick.title}
+      onClick={() => setIsFlipped(!isFlipped)}
+    >
       <div className="card-inner">
         <div className="card-front">
-          <div className="card-breadcrumb">{trick.module} &bull; {trick.topic}</div>
+          <CardFrame />
+          <div className="card-suit suit-top-left black">
+            <span>{index + 1}</span>
+            <span className="suit-icon">V</span>
+          </div>
+          <div className="card-suit suit-bottom-right black">
+            <span>{index + 1}</span>
+            <span className="suit-icon">V</span>
+          </div>
+          
+          <div className="card-breadcrumb card-module">{trick.module}</div>
+          <div className="card-breadcrumb card-topic-bottom">{trick.topic}</div>
           
           {trick.tags && trick.tags.length > 0 && (
             <div className="card-tags">
@@ -50,18 +69,17 @@ const VocabCard: React.FC<Props> = ({ trick, index }) => {
             </div>
           )}
           
-          <span className="card-number">{(index + 1).toString().padStart(2, '0')}</span>
           <h2>
             {trick.title}
             <button className="speaker-btn" title="Listen to pronunciation" onClick={speakWord}>🔊</button>
           </h2>
           
-          <span className="tap-hint">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
-            </svg>
-            Hover to reveal
-          </span>
+            <span className="tap-hint">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+              </svg>
+              Click to flip
+            </span>
         </div>
 
         <div className="card-back">
@@ -92,7 +110,10 @@ const VocabCard: React.FC<Props> = ({ trick, index }) => {
           )}
           
           {trick.formula && (
-            <div className="formula-box" dangerouslySetInnerHTML={{ __html: trick.formula }}></div>
+            <div className="info-section">
+              <span className="info-label">{trick.icon4 || '📚'} Synonyms</span>
+              <div className="formula-box" dangerouslySetInnerHTML={{ __html: trick.formula }}></div>
+            </div>
           )}
           
           {trick.example && (
