@@ -2,6 +2,747 @@ import type { Trick } from '../types';
 
 export const vocabTricks: Trick[] = [
     {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Abysmally",
+        "tags": [
+            "Adverbs"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "In an extremely bad, awful, or severe way. It requires a situation or performance that is profoundly negative or failing.",
+        "whereToUse": "uh-biz-muh-lee",
+        "logic": "<strong>Origin:</strong> Derived from the late 16th-century Latin word abyssus, meaning a bottomless pit or gulf.<br><strong>Memory Trick:</strong> Sounds Like: Imagine dropping your exam down a bottomless ABYSS because the grade was so low.",
+        "formula": "Terribly, dreadfully.",
+        "example": "The company failed abysmally (in an extremely bad, awful, or severe way; terribly) to attract any new customers.<br><strong>Swap test:</strong> The company failed <em>terribly</em> to attract any new customers.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Acrimonious",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "Angry and bitter, typically referring to speech, debate, or relationships.",
+        "whereToUse": "ak-ruh-moh-nee-us",
+        "logic": "<strong>Origin:</strong> From the mid-16th-century French word acrimonieux.<br><strong>Memory Trick:</strong> Sounds Like: Think of 'a crime on us'—the resulting trial would be incredibly acrimonious.",
+        "formula": "Bitter, spiteful.",
+        "example": "The couple's divorce proceedings turned into an acrimonious (angry and bitter; spiteful) legal battle.<br><strong>Swap test:</strong> The couple's divorce proceedings turned into a <em>spiteful</em> legal battle.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Belligerent",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "Showing aggressive hostility or actively ready to start a fight or conflict.",
+        "whereToUse": "buh-lij-er-unt",
+        "logic": "<strong>Origin:</strong> From the late 16th-century Latin word belligerant, meaning waging war.<br><strong>Memory Trick:</strong> Sounds Like: Imagine a boxer hearing the bell ring to start a match and immediately rushing forward to attack—they are being bell-igerent.",
+        "formula": "Hostile, aggressive.",
+        "example": "The customer became belligerent (showing aggressive hostility; hostile) when the manager told him the store had closed for the night.<br><strong>Swap test:</strong> The customer became <em>hostile</em> when the manager told him the store had closed for the night.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Boom",
+        "tags": [
+            "Nouns"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "A period of sudden, rapid growth and prosperity in a business or economy.",
+        "whereToUse": "boom",
+        "logic": "<strong>Origin:</strong> Middle English period, initially imitating a deep, resonant sound.<br><strong>Memory Trick:</strong> Sounds Like: Think of the loud sound of a 'boom' — it happens suddenly and makes a big impact.",
+        "formula": "Surge, explosion.",
+        "example": "He came of age during the Greek shipping boom (a period of sudden, rapid growth and prosperity; surge).<br><strong>Swap test:</strong> He came of age during the Greek shipping <em>surge</em>.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Bootstrapping",
+        "tags": [
+            "Nouns"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "Succeeding entirely through one's own hard work without outside help or money.",
+        "whereToUse": "boot-strap-ing",
+        "logic": "<strong>Origin:</strong> Late 19th-century American English idiom referring to pulling oneself over a fence by one's own boot straps.<br><strong>Memory Trick:</strong> Daily Life: Pulling yourself up by your own 'bootstraps' because no one else is helping.",
+        "formula": "Self-starting, self-made.",
+        "example": "The determination that comes from bootstrapping (succeeding entirely through one's own hard work; self-starting) is invaluable.<br><strong>Swap test:</strong> The determination that comes from <em>self-starting</em> is invaluable.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Capitulate",
+        "tags": [
+            "Verbs"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "To surrender or give up resisting an opponent or an unwelcome demand.",
+        "whereToUse": "kuh-pich-uh-layt",
+        "logic": "<strong>Origin:</strong> Mid-16th century from the Latin word capitulat, meaning drawn up under headings.<br><strong>Memory Trick:</strong> Daily Life: Think of parents resisting their toddler's constant begging for candy until they finally give up to stop the crying.",
+        "formula": "Surrender, yield.",
+        "example": "After defending the fortress for three exhausting months without food, the army was forced to capitulate (to surrender or give up resisting; yield) to the enemy.<br><strong>Swap test:</strong> After defending the fortress for three exhausting months without food, the army was forced to <em>yield</em> to the enemy.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Choleric",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "Bad-tempered, irritable, or easily moved to unreasonable anger.",
+        "whereToUse": "kol-uh-rik",
+        "logic": "<strong>Origin:</strong> Middle English from the Old French word colerique (yellow bile).<br><strong>Memory Trick:</strong> Sounds Like: Imagine a dog with a COLLAR buckled way too tightly.",
+        "formula": "Irascible, cranky.",
+        "example": "The choleric (bad-tempered, irritable; cranky) chef was known for screaming and throwing pans.<br><strong>Swap test:</strong> The <em>cranky</em> chef was known for screaming and throwing pans.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Clandestine",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "Planned or done in absolute secrecy, usually because it is illegal or forbidden by rules.",
+        "whereToUse": "klan-des-tin",
+        "logic": "<strong>Origin:</strong> Mid-16th century from the Latin word clandestinus.<br><strong>Memory Trick:</strong> Pop Culture: Think of secret agents in spy movies meeting in dark, abandoned warehouses to trade undercover documents.",
+        "formula": "Hidden, undercover.",
+        "example": "The rebel fighters held a clandestine (planned or done in absolute secrecy; undercover) meeting at midnight to plan their next move against the regime.<br><strong>Swap test:</strong> The rebel fighters held an <em>undercover</em> meeting at midnight to plan their next move against the regime.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Coherent",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "Logical, well-organized, and easy to understand; holding firmly together as a unified whole.",
+        "whereToUse": "koh-heer-unt",
+        "logic": "<strong>Origin:</strong> Mid-16th century from the Latin word cohaerent, meaning sticking together.<br><strong>Memory Trick:</strong> Sounds Like: Think of the prefix \"co-\" (together) and \"here\" (like adhesive). If ideas co-here (stick together) perfectly, they form a coherent argument that makes complete sense.",
+        "formula": "Logical, clear.",
+        "example": "Despite being woken up in the middle of the night, the doctor gave a completely coherent (logical, well-organized, and easy to understand; clear) explanation of the emergency procedure.<br><strong>Swap test:</strong> Despite being woken up in the middle of the night, the doctor gave a completely <em>clear</em> explanation of the emergency procedure.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Comportment",
+        "tags": [
+            "Nouns"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "Personal bearing or conduct; the way a person behaves.",
+        "whereToUse": "kum-port-munt",
+        "logic": "<strong>Origin:</strong> Late 16th century from the French word comportement.<br><strong>Memory Trick:</strong> Sounds Like: Think of how someone carries themselves when walking through a high-security AIRPORT.",
+        "formula": "Demeanor, behavior.",
+        "example": "The young diplomats were trained to maintain an elegant comportment (personal bearing or conduct; demeanor) during summits.<br><strong>Swap test:</strong> The young diplomats were trained to maintain an elegant <em>demeanor</em> during summits.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Concierge",
+        "tags": [
+            "Nouns"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "A professional at a hotel or apartment building who assists guests with arrangements and errands.",
+        "whereToUse": "kohn-see-airzh",
+        "logic": "<strong>Origin:</strong> Mid 16th century from French.<br><strong>Memory Trick:</strong> Sounds Like: Think of a concierge as the person who 'can see' to your every 'urge' (con-see-urge).",
+        "formula": "Attendant, caretaker.",
+        "example": "The couple asked the hotel concierge (a professional at a hotel who assists guests; attendant) to book them tickets for the sold-out Broadway show.<br><strong>Swap test:</strong> The couple asked the hotel <em>attendant</em> to book them tickets for the sold-out Broadway show.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Confluent",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "Flowing together or merging into one.",
+        "whereToUse": "kon-floo-unt",
+        "logic": "<strong>Origin:</strong> Late Middle English from Latin confluent- 'flowing together'.<br><strong>Memory Trick:</strong> Sounds Like: Think of two separate rivers flowing continuously until they are connected and fluently moving as one.",
+        "formula": "Merging, converging.",
+        "example": "The two rivers are confluent (flowing together or merging into one; merging) just outside the city limits, creating a massive single waterway.<br><strong>Swap test:</strong> The two rivers are <em>merging</em> just outside the city limits, creating a massive single waterway.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Contentious",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "Causing or likely to cause a lot of disagreement or arguing between people.",
+        "whereToUse": "kun-ten-shus",
+        "logic": "<strong>Origin:</strong> Late Middle English from Old French contentieux.<br><strong>Memory Trick:</strong> Daily Life: Think of a family trying to decide on a holiday destination, turning a fun dinner into a long, loud argument.",
+        "formula": "Controversial, debatable.",
+        "example": "The decision to build a new highway through the quiet neighborhood became a contentious (causing a lot of disagreement; controversial) issue during the town hall meeting.<br><strong>Swap test:</strong> The decision to build a new highway through the quiet neighborhood became a <em>controversial</em> issue during the town hall meeting.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Dexterous",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "Showing or having great skill, especially with the hands.",
+        "whereToUse": "dek-strus",
+        "logic": "<strong>Origin:</strong> Early 17th century from Latin dexter 'on the right'.<br><strong>Memory Trick:</strong> Sounds Like: Someone who can perfectly type a TEXT message with one hand.",
+        "formula": "Skillful, nimble.",
+        "example": "The dexterous (showing or having great skill with the hands; nimble) magician easily palmed the card without anyone noticing.<br><strong>Swap test:</strong> The <em>nimble</em> magician easily palmed the card without anyone noticing.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Dimwitted",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "A-D",
+        "whatItIs": "Lacking intelligence; silly or stupid.",
+        "whereToUse": "dim-wit-id",
+        "logic": "<strong>Origin:</strong> Early 20th century combination of dim + witted.<br><strong>Memory Trick:</strong> Sounds Like: A lightbulb (WIT) over someone's head that is barely glowing and very DIM.",
+        "formula": "Foolish, simpleminded.",
+        "example": "The criminals hatched a dimwitted (lacking intelligence; foolish) plan to rob the bank wearing name tags.<br><strong>Swap test:</strong> The criminals hatched a <em>foolish</em> plan to rob the bank wearing name tags.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Engender",
+        "tags": [
+            "Verbs"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "To cause or give rise to a feeling, situation, or condition.",
+        "whereToUse": "in-jen-der",
+        "logic": "<strong>Origin:</strong> Middle English from Old French engendrer.<br><strong>Memory Trick:</strong> Sounds Like: Look at the word \"gender\" inside it, which shares the same root as generate. To engender is to generate a reaction.",
+        "formula": "Produce, provoke.",
+        "example": "The politician's controversial speech was guaranteed to engender (to cause or give rise to a feeling; provoke) a lot of anger among the citizens.<br><strong>Swap test:</strong> The politician's controversial speech was guaranteed to <em>provoke</em> a lot of anger among the citizens.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Ephemeral",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "Lasting for a very short time.",
+        "whereToUse": "ih-fem-er-ul",
+        "logic": "<strong>Origin:</strong> Late 16th century from Greek ephēmeros.<br><strong>Memory Trick:</strong> Sounds Like: Think of the word sounding like \"a fever-al.\" Just like a fever, which eventually goes away, ephemeral things are short-lived.",
+        "formula": "Fleeting, short-lived.",
+        "example": "The beauty of the morning mist was ephemeral (lasting for a very short time; fleeting) and vanished as soon as the sun rose.<br><strong>Swap test:</strong> The beauty of the morning mist was <em>fleeting</em> and vanished as soon as the sun rose.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Espionage",
+        "tags": [
+            "Nouns"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "The practice of spying or using spies to secretly obtain political, military, or corporate information.",
+        "whereToUse": "es-pee-uh-nahzh",
+        "logic": "<strong>Origin:</strong> Late 18th century from French espionnage.<br><strong>Memory Trick:</strong> Sounds Like: Think of a spy who tries to \"e spy on age-old secrets.\" If you are an espion (French for spy), your job is espionage.",
+        "formula": "Spying, intelligence-gathering.",
+        "example": "The foreign diplomat was expelled from the country after being caught committing acts of espionage (the practice of spying; intelligence-gathering) against the government.<br><strong>Swap test:</strong> The foreign diplomat was expelled from the country after being caught committing acts of <em>intelligence-gathering</em> against the government.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Eulogy",
+        "tags": [
+            "Nouns"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "A speech or piece of writing that praises someone highly, usually delivered at a funeral.",
+        "whereToUse": "yoo-luh-jee",
+        "logic": "<strong>Origin:</strong> Late Middle English from medieval Latin eulogium.<br><strong>Memory Trick:</strong> Sounds Like: Think of it as you giving a logy (speech) to say genuinely good things about a person's life.",
+        "formula": "Tribute, commendation.",
+        "example": "The brother of the deceased delivered a moving eulogy (a speech that praises someone highly; tribute) that brought the entire room to tears.<br><strong>Swap test:</strong> The brother of the deceased delivered a moving <em>tribute</em> that brought the entire room to tears.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Euphony",
+        "tags": [
+            "Nouns"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "The quality of having a pleasing, harmonious, or \"good sound\" to the ear.",
+        "whereToUse": "yoo-fuh-nee",
+        "logic": "<strong>Origin:</strong> Late 15th century from French euphonie.<br><strong>Memory Trick:</strong> Sounds Like: If a symphony is a collection of sounds, a euphony is specifically a sound that is \"good\" to listen to.",
+        "formula": "Harmony, melody.",
+        "example": "The poet was famous for the beautiful euphony (the quality of having a pleasing sound; harmony) of her verses when read aloud.<br><strong>Swap test:</strong> The poet was famous for the beautiful <em>harmony</em> of her verses when read aloud.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Euphoria",
+        "tags": [
+            "Nouns"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "A state of extreme happiness and intense excitement.",
+        "whereToUse": "yoo-fohr-ee-uh",
+        "logic": "<strong>Origin:</strong> Early 18th century from Greek euphoria.<br><strong>Memory Trick:</strong> Sounds Like: When you experience euphoria, you are so happy that it feels like you are floating in a UFO (eupho).",
+        "formula": "Elation, ecstasy.",
+        "example": "Winning the world championship brought a wave of euphoria (a state of extreme happiness; elation) to the entire city.<br><strong>Swap test:</strong> Winning the world championship brought a wave of <em>elation</em> to the entire city.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Euthanasia",
+        "tags": [
+            "Nouns"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "The painless killing of a patient suffering from an incurable and painful disease; \"mercy killing\".",
+        "whereToUse": "yoo-thuh-nay-zhuh",
+        "logic": "<strong>Origin:</strong> Early 17th century from Greek euthanasia 'easy death'.<br><strong>Memory Trick:</strong> Sounds Like: Sounds like \"Youth in Asia,\" but focus on the root eu (good) to remember it as a painless end to suffering.",
+        "formula": "Mercy killing, assisted suicide.",
+        "example": "The country recently updated its legal framework regarding the practice of euthanasia (the painless killing of a patient suffering; mercy killing) for terminally ill patients.<br><strong>Swap test:</strong> The country recently updated its legal framework regarding the practice of <em>mercy killing</em> for terminally ill patients.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Evidence",
+        "tags": [
+            "Nouns"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "Facts, information, or objects that help prove whether something is true.",
+        "whereToUse": "ev-ih-duns",
+        "logic": "<strong>Origin:</strong> Middle English from Old French.<br><strong>Memory Trick:</strong> Sounds Like: Think of a detective standing in front of an evidence board with a \"V.I.D.\" (a Very Important Detail) circled in red.",
+        "formula": "Proof, confirmation.",
+        "example": "The prosecutor lacked the necessary evidence (facts that help prove something is true; proof) to successfully incriminate the defendant.<br><strong>Swap test:</strong> The prosecutor lacked the necessary <em>proof</em> to successfully incriminate the defendant.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Evidently",
+        "tags": [
+            "Adverbs"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "Plainly or obviously seen, understood, or revealed based on the available evidence.",
+        "whereToUse": "ev-ih-dunt-lee",
+        "logic": "<strong>Origin:</strong> Middle English.<br><strong>Memory Trick:</strong> Sounds Like: Look at the core word \"evident,\" which shares a root with \"video\" (to see). If something is evidently true, it is as clear and easy to understand as watching a video of it happening.",
+        "formula": "Obviously, apparently.",
+        "example": "Evidently (plainly or obviously seen; obviously), the meeting was canceled because the entire office is completely empty.<br><strong>Swap test:</strong> <em>obviously</em>, the meeting was canceled because the entire office is completely empty.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Exonerate",
+        "tags": [
+            "Verbs"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "To officially clear someone of blame or responsibility. Implies the person was previously held accountable or accused.",
+        "whereToUse": "ig-zon-uh-rayt",
+        "logic": "<strong>Origin:</strong> Late Middle English from Latin exonerat- 'freed from a burden'.<br><strong>Memory Trick:</strong> Sounds Like: Focus on \"ex-onus\" (Exit the burden). Just as a ship is cleared of heavy cargo (onus), a person is cleared of the burden of guilt.",
+        "formula": "Absolve, acquit.",
+        "example": "The new test results served to exonerate (to officially clear someone of blame; absolve) the man who had been suspected of the mistake.<br><strong>Swap test:</strong> The new test results served to <em>absolve</em> the man who had been suspected of the mistake.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Fecund",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "Highly capable of producing a large number of offspring, crops, or new creative ideas.",
+        "whereToUse": "fee-kund",
+        "logic": "<strong>Origin:</strong> Late Middle English from Latin fecundus.<br><strong>Memory Trick:</strong> Daily Life: Imagine a dynamic brainstorming session where a creative writer continuously spits out dozens of unique, brilliant ideas.",
+        "formula": "Fertile, productive.",
+        "example": "The lush valley has incredibly fecund (highly capable of producing crops; fertile) soil that yields massive harvests every single year.<br><strong>Swap test:</strong> The lush valley has incredibly <em>fertile</em> soil that yields massive harvests every single year.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Frugal",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "Careful about spending money or using resources; avoiding waste.",
+        "whereToUse": "froo-gul",
+        "logic": "<strong>Origin:</strong> Late 16th century from Latin frugalis.<br><strong>Memory Trick:</strong> Sounds Like: Think of a frugal person as someone who carefully gathers every last piece of fruit from a tree to ensure absolutely nothing goes to waste.",
+        "formula": "Thrifty, economical.",
+        "example": "To save up for her dream vacation, she was incredibly frugal (careful about spending money; thrifty) with her daily expenses.<br><strong>Swap test:</strong> To save up for her dream vacation, she was incredibly <em>thrifty</em> with her daily expenses.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Frugality",
+        "tags": [
+            "Nouns"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "The quality or lifestyle of being careful with money and resources.",
+        "whereToUse": "froo-gal-ih-tee",
+        "logic": "<strong>Origin:</strong> Mid 16th century from Latin.<br><strong>Memory Trick:</strong> Sounds Like: If you practice frugality, you have the ability to remain frugal over the course of your entire life.",
+        "formula": "Thriftiness, economy.",
+        "example": "His lifelong frugality (the quality of being careful with money; thriftiness) allowed him to retire comfortably a decade earlier than his peers.<br><strong>Swap test:</strong> His lifelong <em>thriftiness</em> allowed him to retire comfortably a decade earlier than his peers.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Garbled",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "Confused, distorted, and difficult to understand; a message that makes sense at its core but has a broken delivery.",
+        "whereToUse": "gar-buld",
+        "logic": "<strong>Origin:</strong> Late Middle English from Italian garbellare 'to sift'.<br><strong>Memory Trick:</strong> Sounds Like: Imagine trying to speak out loud while GAR-gling mouthwash.",
+        "formula": "Jumbled, scrambled.",
+        "example": "Due to poor reception, the emergency radio transmission was completely garbled (confused, distorted, and difficult to understand; scrambled).<br><strong>Swap test:</strong> Due to poor reception, the emergency radio transmission was completely <em>scrambled</em>.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Hedonism",
+        "tags": [
+            "Nouns"
+        ],
+        "module": "Vocab",
+        "topic": "E-H",
+        "whatItIs": "The belief that the pursuit of pleasure and happiness is the most important goal in life.",
+        "whereToUse": "hee-duh-niz-um",
+        "logic": "<strong>Origin:</strong> Mid 19th century from Greek hēdonē 'pleasure'.<br><strong>Memory Trick:</strong> Sounds Like: Imagine someone who always chooses fun over responsibilities and says, \"He don't care about anything but having a good time!\"",
+        "formula": "Indulgence, pleasure-seeking.",
+        "example": "After years of working grueling 80-hour weeks, she finally retired to a private beach to embrace a life of pure hedonism (the belief that the pursuit of pleasure is most important; indulgence).<br><strong>Swap test:</strong> After years of working grueling 80-hour weeks, she finally retired to a private beach to embrace a life of pure <em>indulgence</em>.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Immaculate",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "I-P",
+        "whatItIs": "Perfectly clean, neat, or entirely free from flaws.",
+        "whereToUse": "ih-mak-yuh-lut",
+        "logic": "<strong>Origin:</strong> Late Middle English from Latin immaculatus.<br><strong>Memory Trick:</strong> Sounds Like: Imagine a Mac computer covered in smudges. If it is immaculate (im-mac/no stains), it has been polished clean.",
+        "formula": "Spotless, flawless.",
+        "example": "After hours of deep cleaning, the apartment was completely immaculate (perfectly clean; spotless) before the guests arrived.<br><strong>Swap test:</strong> After hours of deep cleaning, the apartment was completely <em>spotless</em> before the guests arrived.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Impetuous",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "I-P",
+        "whatItIs": "Acting or done quickly and without thought or care.",
+        "whereToUse": "im-pech-oo-us",
+        "logic": "<strong>Origin:</strong> Late Middle English from Old French impetueux.<br><strong>Memory Trick:</strong> Sounds Like: Think of a hyperactive PET let off its leash—they just bolt without thinking.",
+        "formula": "Impulsive, rash.",
+        "example": "In an impetuous (acting or done quickly without thought; impulsive) move, he quit his stable corporate job to travel the world with zero savings.<br><strong>Swap test:</strong> In an <em>impulsive</em> move, he quit his stable corporate job to travel the world with zero savings.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Impudent",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "I-P",
+        "whatItIs": "Not showing due respect; completely lacking modesty or shame.",
+        "whereToUse": "im-pyuh-dunt",
+        "logic": "<strong>Origin:</strong> Late Middle English from Latin impudent- 'shameless'.<br><strong>Memory Trick:</strong> Sounds Like: Think of an IMP (mischievous creature) acting like a rude STUDENT.",
+        "formula": "Insolent, disrespectful.",
+        "example": "The celebrity fired her assistant after dealing with his impudent (not showing due respect; disrespectful) behavior.<br><strong>Swap test:</strong> The celebrity fired her assistant after dealing with his <em>disrespectful</em> behavior.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Incognizant",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "I-P",
+        "whatItIs": "Lacking knowledge or awareness of something.",
+        "whereToUse": "in-kog-nuh-zunt",
+        "logic": "<strong>Origin:</strong> Mid 19th century.<br><strong>Memory Trick:</strong> Sounds Like: Like INCOGNITO; their brain is hiding from the facts/RECOGNIZING things.",
+        "formula": "Unaware, oblivious.",
+        "example": "He walked through freshly poured cement, completely incognizant (lacking knowledge or awareness; oblivious) of the warning signs.<br><strong>Swap test:</strong> He walked through freshly poured cement, completely <em>oblivious</em> of the warning signs.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Incriminate",
+        "tags": [
+            "Verbs"
+        ],
+        "module": "Vocab",
+        "topic": "I-P",
+        "whatItIs": "To make someone appear guilty of a crime by providing proof or connecting them to the act.",
+        "whereToUse": "in-krim-uh-nayt",
+        "logic": "<strong>Origin:</strong> Mid 18th century from late Latin incriminat-.<br><strong>Memory Trick:</strong> Sounds Like: Focus on the word \"crime\" hiding inside \"in-crim-inate.\" Think of a detective finding a \"crime\" right \"in\" your possession.",
+        "formula": "Implicate, charge.",
+        "example": "His fingerprints left at the scene were enough to incriminate (to make someone appear guilty; implicate) him in the robbery.<br><strong>Swap test:</strong> His fingerprints left at the scene were enough to <em>implicate</em> him in the robbery.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Indigence",
+        "tags": [
+            "Nouns"
+        ],
+        "module": "Vocab",
+        "topic": "I-P",
+        "whatItIs": "A state of extreme poverty or absolute lack of basic resources.",
+        "whereToUse": "in-dih-juns",
+        "logic": "<strong>Origin:</strong> Late Middle English from Old French indigence.<br><strong>Memory Trick:</strong> Sounds Like: Sounds like 'in need of cents.' You might have to DIG for necessities.",
+        "formula": "Destitution, penury.",
+        "example": "After losing his job and his home, he was forced into a life of complete indigence (a state of extreme poverty; destitution).<br><strong>Swap test:</strong> After losing his job and his home, he was forced into a life of complete <em>destitution</em>.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+    {
+        "dateAdded": "2026-06-28T14:00:00.000Z",
+        "section": "Vocab",
+        "title": "Insolent",
+        "tags": [
+            "Adjectives"
+        ],
+        "module": "Vocab",
+        "topic": "I-P",
+        "whatItIs": "Showing a rude and arrogant lack of respect.",
+        "whereToUse": "in-suh-lunt",
+        "logic": "<strong>Origin:</strong> Late Middle English from Latin insolent- 'immoderate, unaccustomed, arrogant'.<br><strong>Memory Trick:</strong> Sounds Like: Think of someone whose behavior is a direct INSULT; treating you like the INSOLE of a shoe.",
+        "formula": "Disrespectful, impudent.",
+        "example": "The manager fired the employee on the spot due to his insolent (showing a rude lack of respect; disrespectful) behavior toward customers.<br><strong>Swap test:</strong> The manager fired the employee on the spot due to his <em>disrespectful</em> behavior toward customers.",
+        "icon1": "📖",
+        "icon2": "🗣️",
+        "icon3": "🧠",
+        "icon4": "📚",
+        "icon5": "📝"
+    },
+
+    {
         "dateAdded": "2026-01-01T12:01:00.000Z",
         "section": "Vocab",
         "module": "Vocab",
