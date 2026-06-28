@@ -166,43 +166,130 @@ const CardGrid = () => {
   };
 
   return (
-    <div className="grid-container" id="grid-container">
-      {filteredAndSortedTricks.length === 0 ? (
-        <div className="no-results-message">
-          No strategies found matching your criteria. Try adjusting your filters or search terms.
-        </div>
-      ) : (
-        <DndContext 
-          sensors={sensors}
-          collisionDetection={pointerWithin}
-          onDragStart={handleDragStart}
-          onDragEnd={handleDragEnd}
-          onDragCancel={handleDragCancel}
-        >
-          <SortableContext 
-            items={filteredAndSortedTricks.map(t => t.title)}
-            strategy={rectSortingStrategy}
+    <>
+      {activeSection === 'Vocab' && (
+        <div style={{ display: 'flex', justifyContent: 'center', width: '100%', marginBottom: '2rem', marginTop: '-0.5rem' }}>
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.9, y: -10 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{ type: "spring", stiffness: 400, damping: 25 }}
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '14px',
+              background: 'var(--card-bg)',
+              border: '1px solid var(--accent-2)',
+              padding: '10px 28px',
+              borderRadius: '100px',
+              backdropFilter: 'var(--glass-blur)',
+              WebkitBackdropFilter: 'var(--glass-blur)',
+              boxShadow: '0 8px 32px rgba(0, 0, 0, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 20px var(--bg-glow)',
+              position: 'relative',
+              overflow: 'hidden',
+              cursor: 'default'
+            }}
           >
-            <motion.div className="grid-container-inner" style={{ display: 'contents' }}>
-              
-                {renderElements()}
-              
+            <motion.div
+              animate={{ 
+                rotate: [0, -10, 10, -10, 10, 0],
+                scale: [1, 1.2, 1.2, 1.2, 1.2, 1]
+              }}
+              transition={{ 
+                duration: 1.5, 
+                ease: "easeInOut",
+                times: [0, 0.2, 0.4, 0.6, 0.8, 1],
+                repeatDelay: 5,
+                repeat: Infinity 
+              }}
+              style={{ fontSize: '1.6rem', display: 'flex', alignItems: 'center', justifyContent: 'center', filter: 'drop-shadow(0 0 8px var(--bg-glow))', zIndex: 1 }}
+            >
+              🧠
             </motion.div>
-          </SortableContext>
-          <DragOverlay>
-            {activeTrick ? (
-              <div style={{ transform: 'scale(1.05)', boxShadow: '0 20px 40px rgba(0,0,0,0.4)', borderRadius: '15px', cursor: 'grabbing' }}>
-                {activeTrick.section === 'Vocab' ? (
-                  <VocabCard trick={activeTrick} index={0} />
-                ) : (
-                  <QuantCard trick={activeTrick} index={0} />
-                )}
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center', lineHeight: '1.2', zIndex: 1 }}>
+              <span style={{ fontFamily: '"Outfit", sans-serif', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '1.5px', color: 'var(--text-muted)', fontWeight: 600 }}>
+                Vocabulary Bank
+              </span>
+              <div style={{ display: 'flex', alignItems: 'baseline', gap: '6px' }}>
+                <span style={{ 
+                  fontFamily: '"Outfit", sans-serif', 
+                  fontWeight: 800, 
+                  fontSize: '1.4rem',
+                  background: 'linear-gradient(135deg, var(--text-main), var(--text-muted))',
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent',
+                }}>
+                  {filteredAndSortedTricks.length}
+                </span>
+                <span style={{ fontFamily: '"Outfit", sans-serif', fontSize: '0.9rem', color: 'var(--accent-2)', fontWeight: 600 }}>
+                  Total Words
+                </span>
               </div>
-            ) : null}
-          </DragOverlay>
-        </DndContext>
+            </div>
+            
+            {/* Animated background glow */}
+            <motion.div 
+              animate={{ 
+                x: ['-200%', '300%']
+              }}
+              transition={{
+                duration: 3,
+                ease: "linear",
+                repeat: Infinity,
+                repeatDelay: 4
+              }}
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '50%',
+                height: '100%',
+                background: 'linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent)',
+                transform: 'skewX(-20deg)',
+                zIndex: 0,
+                pointerEvents: 'none'
+              }}
+            />
+          </motion.div>
+        </div>
       )}
-    </div>
+      <div className="grid-container" id="grid-container">
+        {filteredAndSortedTricks.length === 0 ? (
+          <div className="no-results-message">
+            No strategies found matching your criteria. Try adjusting your filters or search terms.
+          </div>
+        ) : (
+          <DndContext 
+            sensors={sensors}
+            collisionDetection={pointerWithin}
+            onDragStart={handleDragStart}
+            onDragEnd={handleDragEnd}
+            onDragCancel={handleDragCancel}
+          >
+            <SortableContext 
+              items={filteredAndSortedTricks.map(t => t.title)}
+              strategy={rectSortingStrategy}
+            >
+              <motion.div className="grid-container-inner" style={{ display: 'contents' }}>
+                
+                  {renderElements()}
+                
+              </motion.div>
+            </SortableContext>
+            <DragOverlay>
+              {activeTrick ? (
+                <div style={{ transform: 'scale(1.05)', boxShadow: '0 20px 40px rgba(0,0,0,0.4)', borderRadius: '15px', cursor: 'grabbing' }}>
+                  {activeTrick.section === 'Vocab' ? (
+                    <VocabCard trick={activeTrick} index={0} />
+                  ) : (
+                    <QuantCard trick={activeTrick} index={0} />
+                  )}
+                </div>
+              ) : null}
+            </DragOverlay>
+          </DndContext>
+        )}
+      </div>
+    </>
   );
 };
 
